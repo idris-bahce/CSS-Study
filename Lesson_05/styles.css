@@ -1,0 +1,20 @@
+body{
+	font-family: Helvetica;
+	background-color: #00B7C9;
+	color: #FBDA07;
+}
+h1{
+	font-size: 50px;
+	margin:0;
+}
+p{
+	font-style: italic;
+}
+h2{
+	color:#F7F5EC;
+	border-top: solid 2px #333;
+}
+ol{
+	border-bottom: solid 1px #333;
+	color: #4C4C4A;
+}
