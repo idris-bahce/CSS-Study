@@ -47,3 +47,61 @@ a{
 	color: #3ca;
 	text-decoration: none;
 }
+code{
+	display: block;
+	color: #e96c28;
+	background: white;
+	padding: 5px;
+}
+/* Borders*/
+.border-box{
+	background: #eee;
+	margin: 0 0 20px;
+	padding: 20px;
+	width: 300px;
+}
+#box-1{
+	border: solid 1px black;
+}
+#box-2{
+	border: dashed 1px blue;
+}
+#box-3{
+	border: dotted 1px red;
+}
+#box-4{
+	border: double 3px black;
+}
+#box-5{
+	border: solid 4px black;
+}
+#box-6{
+	border: dashed 4px black;
+}
+#box-7{
+	border: dotted 4px black;
+}
+#box-8{
+	border: double 6px black;
+}
+/* Background Images */
+
+.background-example{
+	height: 200px;
+	width: 200px;
+	border: solid 1px black;
+}
+#background-1{
+	background-image: url('images/blue_background.jpg');
+}
+#background-2{
+	background-color: #a3d;
+}
+#background-3{
+	background-image: url('images/steak_background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#background-4{
+	background:url('images/skull_background.jpg') bottom left repeat-x;
+}
