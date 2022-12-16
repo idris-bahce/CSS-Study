@@ -13,7 +13,7 @@ body{
 #monkey{
 	background: #fff;
 	color: #4d2d06;
-	font-family: Verdana, Ariel, sans-serif;
+	font-family: Verdana, Arial, sans-serif;
 }
 
 #donkey{
@@ -23,13 +23,39 @@ body{
 .primary-box{
 	background: #222;
 	color: #eee;
-	font-size: 24px;
-	margin: 0 0 10px;
-	padding: 10px;
 }
 .secondary-box{
 	background: #eee;
 	color: #222;
+}
+.inside-box{
+	margin: 20px 0;
+	padding: 10px;
+	background: #94efff;
+	color: #555;
+}
+
+/* Descendant Selectors*/
+
+.primary-box h2 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.primary-box p em{
+	color: #32b0ff;
+}
+
+.secondary-box p {
+	font-family: Helvettica, Arial, sans-serif;
+}
+.secondary-box em{
+	color: #fc3fff;
+}
+
+/*Grouping Selectors*/
+.inside-box h3, .inside-box p{
+	font-size: 20px;
+}
+.primary-box, .secondary-box{
 	font-size: 24px;
 	margin: 0 0 10px;
 	padding: 10px;
