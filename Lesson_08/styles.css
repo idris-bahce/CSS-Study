@@ -53,3 +53,21 @@ a : active{
 #link-4: hover{
 	color: #333;
 }
+/*CSS Positioning */
+.box{
+	background: #db4e4e;
+	color: white;
+	height: 150px;
+	width: 150px;
+	margin: 20px 0;
+}
+#relative-box{
+	position: relative;
+	top: 30px;
+	left: -70px;
+}
+#absolute-box{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
