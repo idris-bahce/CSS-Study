@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #333;
+	color: #222;
+	font-family: Helevetica, Arial, sans-serif;
+	text-align: center;
+}
+#container{
+	background:white;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+}
+h1{
+	margin: 0 0 20px;
+}
+p{
+	margin: 10 px 0;
+}
+
+/*Styling Links*/
+a : link {
+	color: blue;
+}
+a : visited {
+	color: #f42aa6;
+}
+a : hover {
+	color: #a50578;
+	text-decoration: underline;
+}
+a : active{
+	color: #000;
+}
+#link-1:hover {
+	background: #333;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+#link-3{
+	background: #f42aa6;
+	color: white;
+	padding: 3px;
+}
+#link-3:hover {
+	background: #a50578;
+	text-decoration: none;
+}
+#link-4: hover{
+	color: #333;
+}

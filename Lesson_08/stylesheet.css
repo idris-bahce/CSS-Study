@@ -1,0 +1,27 @@
+#floats{
+	background: #d41;
+}
+#floats #container{
+	background: white;
+	padding: 20px;
+}
+#box1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 0 20px 10px 0;
+	background: red;
+}
+#mainColumn{
+	width: 350px;
+	float: left;
+}
+#sidebar{
+	width: 450px;
+	float: right;
+}
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;	
+}
