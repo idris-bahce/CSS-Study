@@ -118,20 +118,90 @@ header nav ul li#logo a:hover {
 }
 
 /* Hero */
-
+#hero {
+   background: #e8c04f url('../images/bg-tile-yellow.gif') top left repeat;
+}
+#hero .container {
+   position: relative;
+}
+#hero .large-ribbon {
+   height: 190px;
+   width: 150px;
+   background: url('../images/fresh-whole-ingredients.png');
+   text-indent: -9999px;
+   position: absolute;
+   top: -23px;
+   right: -30px;
+}
 
 
 /* The Whole Story */
-
+#story-excerpt {
+   width: 530px;
+   margin-right: 24px;
+   float: left;
+   font-size: 16px;
+}
+#best-donut {
+   background: url('../images/award.png') left center no-repeat;
+   padding: 30px 0 30px 130px;
+   float: left;
+   width: 240px;
+}
 
 
 /* News & Events */
-
-
-
+#articles {
+   width: 370px;
+   float: left;
+   margin-right: 24px;
+}
+#feature-image {
+   width: 530px;
+   float: left;
+}
+#news-events article {
+   margin: 20px 0;
+   padding-left: 55px;
+}
+#news-events article.news {
+   background: url('../images/icon-news.png') top left no-repeat;
+}
+#news-events article.events {
+   background: url('../images/icon-calendar.png') top left no-repeat;
+}
+#news-events header time {
+   color: #d17f38;
+   font-size: 12px;
+}
+#news-events section.excerpt {
+   margin: 10px 0;
+}
+#news-events footer {
+   font-size: 12px;
+}
 /* Footer */
-
-
+footer.main {
+   background: #4b2707 url('../images/bg-tile-brown.gif') top left repeat;
+   color: #f2f3ee;
+   padding: 30px 0;
+}
+footer.main a:hover {
+   color: #f2f3ee;
+}
+#uncopyright, #credits {
+   width: 240px;
+   float: left;
+   padding: 10px 0 10px 50px;
+}
+#uncopyright {
+   background: url('../images/icon-recycle.png') center left no-repeat;
+}
+#credits {
+   background: url('../images/icon-apple.png') center left no-repeat;
+   float: right;
+   margin-top: 5px;
+}
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
