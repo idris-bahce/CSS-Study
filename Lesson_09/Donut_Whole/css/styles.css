@@ -72,10 +72,50 @@ a:visited{
 a:hover{
    color: #4b2707;
 }
+hr {
+   border: none;
+   height: 33px;
+   width: 333px;
+   margin: 30px auto;
+   background: url('../images/divider.png') center center no-repeat;
+}
 
 /* Header */
-
-
+header nav {
+   text-align: center;
+}
+header nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height: 141px;
+}
+header nav ul li {
+   display: inline-block;
+   padding: 0 20px;
+}
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+header nav ul li a:hover{
+   color: #4b2707;
+   padding-top: 20px;
+   background: url(../images/tiny-donut.png) top center no-repeat;
+}
+header nav ul li#logo a{
+   display: block;
+   width: 292px;
+   height: 141px;
+   background: url('../images/logo.png') center center no-repeat;
+   text-indent: -9999px;
+}
+header nav ul li#logo a:hover {
+   padding: 0;
+   background: url('../images/logo-hover.png') center center no-repeat;
+}
 
 /* Hero */
 
