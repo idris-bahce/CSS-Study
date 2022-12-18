@@ -1,0 +1,111 @@
+/* ===============================
+   Author: {Idris BAHCE}
+   Date:   {December 18, 2022}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+body{
+   background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+   color: #4b2707;
+   font-size: 14px;
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+.container{
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
+/* Typography */
+h1, h2{
+   color: #d17f38;
+   font-size: 40px;
+   font-weight: normal;
+   font-family: 'Love Ya Like A Sister', cursive;
+   line-height: 44px;
+   margin: 0;
+}
+h1{
+   text-align: center;
+   padding: 0 0 20px;
+   background: url('../images/header-divider.png') bottom center no-repeat;
+}
+h1 em{
+   font-style: normal;
+   color: #4b2707;
+}
+h2{
+   font-size: 34px;
+}
+h3{
+   margin: 0;
+}
+p.lead {
+   font-size: 30px;
+   font-weight: 300;
+   text-align: center;
+   margin: 10px 0;
+}
+p {
+   margin: 0;
+}
+a:link{
+   color: #d17f38;
+}
+a:visited{
+   color: #d17f38;
+}
+a:hover{
+   color: #4b2707;
+}
+
+/* Header */
+
+
+
+/* Hero */
+
+
+
+/* The Whole Story */
+
+
+
+/* News & Events */
+
+
+
+/* Footer */
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
